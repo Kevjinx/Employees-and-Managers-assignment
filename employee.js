@@ -8,7 +8,7 @@ class Employee {
     this.bossman =bossman
   }
   bonus(multiplier){
-    this.salary *= multiplier;
+   return this.salary *= multiplier;
   }
 }
 
